@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="IronUp - Premium laundry pickup and delivery service. Get your clothes cleaned, pressed, and delivered to your doorstep.">
+    <meta name="keywords" content="laundry service, pickup and delivery, dry cleaning, iron service, wash and fold">
+    <title>IronUp - Premium Laundry Pickup & Delivery Service</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="32" height="32" rx="8" fill="#6366F1"/>
+                        <path d="M16 8L20 12H12L16 8Z" fill="white"/>
+                        <rect x="10" y="12" width="12" height="12" rx="2" fill="white"/>
+                        <path d="M14 16H18M14 19H18" stroke="#6366F1" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                    <span class="logo-text">IronUp</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="cta-btn">Download App</button>
+                <button class="mobile-menu-btn" id="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#" class="mobile-cta">Download App</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <span class="badge">🎉 Now Available in Your City</span>
+                    <h1 class="hero-title">
+                        Fresh, Clean Laundry
+                        <span class="gradient-text">Delivered to Your Door</span>
+                    </h1>
+                    <p class="hero-description">
+                        Experience the convenience of professional laundry service with free pickup and delivery. 
+                        More time for what matters, less time doing laundry.
+                    </p>
+                    <div class="hero-cta">
+                        <button class="btn btn-primary">Schedule Pickup</button>
+                        <button class="btn btn-secondary">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <circle cx="10" cy="10" r="10" fill="currentColor" opacity="0.1"/>
+                                <path d="M8 6L13 10L8 14V6Z" fill="currentColor"/>
+                            </svg>
+                            Watch Demo
+                        </button>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <div class="stat-number">50K+</div>
+                            <div class="stat-label">Happy Customers</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">4.9</div>
+                            <div class="stat-label">Average Rating</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">24h</div>
+                            <div class="stat-label">Delivery Time</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-image-wrapper">
+                        <div class="floating-card card-1">
+                            <div class="card-icon">📦</div>
+                            <div class="card-content">
+                                <div class="card-title">Pickup Scheduled</div>
+                                <div class="card-subtitle">Today at 2:00 PM</div>
+                            </div>
+                        </div>
+                        <div class="floating-card card-2">
+                            <div class="card-icon">✨</div>
+                            <div class="card-content">
+                                <div class="card-title">Order Complete</div>
+                                <div class="card-subtitle">Ready for delivery</div>
+                            </div>
+                        </div>
+                        <div class="hero-main-visual">
+                            <svg viewBox="0 0 400 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="50" y="100" width="300" height="350" rx="20" fill="#F0F4FF"/>
+                                <rect x="80" y="130" width="240" height="290" rx="15" fill="white"/>
+                                <circle cx="200" cy="220" r="60" fill="#6366F1" opacity="0.1"/>
+                                <path d="M170 220L190 240L230 200" stroke="#6366F1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                <rect x="120" y="300" width="160" height="10" rx="5" fill="#E5E7EB"/>
+                                <rect x="120" y="330" width="120" height="10" rx="5" fill="#E5E7EB"/>
+                                <rect x="120" y="360" width="140" height="10" rx="5" fill="#E5E7EB"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Why Choose Us</span>
+                <h2 class="section-title">Everything You Need in a Laundry Service</h2>
+                <p class="section-description">Professional care for your clothes with unmatched convenience</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <rect width="48" height="48" rx="12" fill="#6366F1" opacity="0.1"/>
+                            <path d="M18 24L22 28L30 20" stroke="#6366F1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Free Pickup & Delivery</h3>
+                    <p class="feature-description">We come to you! Schedule a pickup at your convenience and get your clothes delivered fresh to your doorstep.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <rect width="48" height="48" rx="12" fill="#10B981" opacity="0.1"/>
+                            <circle cx="24" cy="24" r="8" stroke="#10B981" stroke-width="3"/>
+                            <path d="M24 16V24L28 26" stroke="#10B981" stroke-width="3" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">24-Hour Turnaround</h3>
+                    <p class="feature-description">Need it fast? Our express service gets your laundry back to you within 24 hours, perfectly clean and pressed.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <rect width="48" height="48" rx="12" fill="#F59E0B" opacity="0.1"/>
+                            <path d="M24 14L26 22H34L28 27L30 35L24 30L18 35L20 27L14 22H22L24 14Z" fill="#F59E0B"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Premium Quality</h3>
+                    <p class="feature-description">We use eco-friendly detergents and professional equipment to ensure your clothes look and feel their best.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <rect width="48" height="48" rx="12" fill="#EF4444" opacity="0.1"/>
+                            <path d="M24 28C27.3137 28 30 25.3137 30 22C30 18.6863 27.3137 16 24 16C20.6863 16 18 18.6863 18 22C18 25.3137 20.6863 28 24 28Z" stroke="#EF4444" stroke-width="3"/>
+                            <path d="M30 28L32 32" stroke="#EF4444" stroke-width="3" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Easy Tracking</h3>
+                    <p class="feature-description">Track your order in real-time from pickup to delivery. Know exactly where your clothes are at every step.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <rect width="48" height="48" rx="12" fill="#8B5CF6" opacity="0.1"/>
+                            <rect x="16" y="18" width="16" height="14" rx="2" stroke="#8B5CF6" stroke-width="3"/>
+                            <path d="M20 18V16C20 14.8954 20.8954 14 22 14H26C27.1046 14 28 14.8954 28 16V18" stroke="#8B5CF6" stroke-width="3"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Flexible Plans</h3>
+                    <p class="feature-description">Pay as you go or save with our monthly subscriptions. Plans designed to fit your lifestyle and budget.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <rect width="48" height="48" rx="12" fill="#06B6D4" opacity="0.1"/>
+                            <circle cx="24" cy="20" r="6" stroke="#06B6D4" stroke-width="3"/>
+                            <path d="M14 32C14 27.5817 17.5817 24 22 24H26C30.4183 24 34 27.5817 34 32" stroke="#06B6D4" stroke-width="3" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Dedicated Support</h3>
+                    <p class="feature-description">Our customer care team is available 24/7 to assist you with any questions or special requests.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Simple Process</span>
+                <h2 class="section-title">How IronUp Works</h2>
+                <p class="section-description">Get started in three easy steps</p>
+            </div>
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-number">01</div>
+                    <div class="step-icon">
+                        <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
+                            <circle cx="32" cy="32" r="32" fill="#6366F1" opacity="0.1"/>
+                            <path d="M26 28H38M26 32H38M26 36H34" stroke="#6366F1" stroke-width="2" stroke-linecap="round"/>
+                            <rect x="22" y="24" width="20" height="16" rx="2" stroke="#6366F1" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="step-title">Schedule Pickup</h3>
+                    <p class="step-description">Choose your preferred date and time slot through our app or website. We'll send a confirmation instantly.</p>
+                </div>
+                <div class="step-arrow">
+                    <svg width="60" height="40" viewBox="0 0 60 40" fill="none">
+                        <path d="M0 20H55M55 20L40 5M55 20L40 35" stroke="#E5E7EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div class="step">
+                    <div class="step-number">02</div>
+                    <div class="step-icon">
+                        <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
+                            <circle cx="32" cy="32" r="32" fill="#10B981" opacity="0.1"/>
+                            <circle cx="32" cy="28" r="6" stroke="#10B981" stroke-width="2"/>
+                            <path d="M20 42C20 36.4772 24.4772 32 30 32H34C39.5228 32 44 36.4772 44 42" stroke="#10B981" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="step-title">We Collect & Clean</h3>
+                    <p class="step-description">Our professional team picks up your laundry and treats each item with expert care and attention.</p>
+                </div>
+                <div class="step-arrow">
+                    <svg width="60" height="40" viewBox="0 0 60 40" fill="none">
+                        <path d="M0 20H55M55 20L40 5M55 20L40 35" stroke="#E5E7EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div class="step">
+                    <div class="step-number">03</div>
+                    <div class="step-icon">
+                        <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
+                            <circle cx="32" cy="32" r="32" fill="#F59E0B" opacity="0.1"/>
+                            <rect x="20" y="24" width="24" height="16" rx="2" stroke="#F59E0B" stroke-width="2"/>
+                            <path d="M28 24V22C28 20.8954 28.8954 20 30 20H34C35.1046 20 36 20.8954 36 22V24" stroke="#F59E0B" stroke-width="2"/>
+                            <circle cx="32" cy="32" r="2" fill="#F59E0B"/>
+                        </svg>
+                    </div>
+                    <h3 class="step-title">Delivered Fresh</h3>
+                    <p class="step-description">Receive your freshly cleaned, folded, and packaged clothes right at your doorstep within 24 hours.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Pricing</span>
+                <h2 class="section-title">Choose Your Plan</h2>
+                <p class="section-description">Flexible pricing options to suit your needs</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3 class="pricing-title">Pay Per Use</h3>
+                        <div class="pricing-price">
+                            <span class="currency">₹</span>
+                            <span class="amount">50</span>
+                            <span class="period">/kg</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M6 10L9 13L14 7" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Free pickup & delivery
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M6 10L9 13L14 7" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            48-hour turnaround
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M6 10L9 13L14 7" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Wash, dry & fold
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M6 10L9 13L14 7" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Real-time tracking
+                        </li>
+                        <li class="disabled">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M6 6L14 14M14 6L6 14" stroke="#D1D5DB" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                            Priority support
+                        </li>
+                        <li class="disabled">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M6 6L14 14M14 6L6 14" stroke="#D1D5DB" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                            Express delivery
+                        </li>
+                    </ul>
+                    <button class="btn btn-outline">Get Started</button>
+                </div>
+
+                <div class="pricing-card featured">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3 class="pricing-title">Monthly Plan</h3>
+                        <div class="pricing-price">
+                            <span class="currency">₹</span>
+                            <span class="amount">999</span>
+                            <span class="period">/month</span>
+                        </div>
+                        <div class="pricing-subtitle">Up to 30kg per month</div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M6 10L9 13L14 7" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Free pickup & delivery
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M6 10L9 13L14 7" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            24-hour turnaround
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M6 10L9 13L14 7" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Wash, dry, fold & iron
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M6 10L9 13L14 7" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Real-time tracking
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M6 10L9 13L14 7" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Priority support
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M6 10L9 13L14 7" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            15% discount on extra kg
+                        </li>
+                    </ul>
+                    <button class="btn btn-primary">Get Started</button>
+                </div>
+
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3 class="pricing-title">Premium Plan</h3>
+                        <div class="pricing-price">
+                            <span class="currency">₹</span>
+                            <span class="amount">1,799</span>
+                            <span class="period">/month</span>
+                        </div>
+                        <div class="pricing-subtitle">Up to 60kg per month</div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M6 10L9 13L14 7" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Free pickup & delivery
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M6 10L9 13L14 7" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            12-hour express delivery
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M6 10L9 13L14 7" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Premium care & iron
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M6 10L9 13L14 7" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Real-time tracking
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M6 10L9 13L14 7" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            24/7 priority support
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M6 10L9 13L14 7" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            25% discount on extra kg
+                        </li>
+                    </ul>
+                    <button class="btn btn-outline">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Testimonials</span>
+                <h2 class="section-title">What Our Customers Say</h2>
+                <p class="section-description">Join thousands of satisfied customers</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span>
+                    </div>
+                    <p class="testimonial-text">"IronUp has been a lifesaver! The convenience of having my laundry picked up and delivered is incredible. The quality is always top-notch, and my clothes come back perfectly folded and fresh."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">PR</div>
+                        <div class="author-info">
+                            <div class="author-name">Priya Sharma</div>
+                            <div class="author-title">Software Engineer</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span>
+                    </div>
+                    <p class="testimonial-text">"As a busy professional, IronUp saves me so much time. The 24-hour turnaround is amazing, and I love being able to track my order. Customer service is excellent too!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">RK</div>
+                        <div class="author-info">
+                            <div class="author-name">Rahul Kumar</div>
+                            <div class="author-title">Marketing Manager</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span>
+                    </div>
+                    <p class="testimonial-text">"Best laundry service I've ever used! They handle my clothes with such care, and the pricing is very reasonable. The monthly plan is perfect for my family's needs."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">AS</div>
+                        <div class="author-info">
+                            <div class="author-name">Anjali Singh</div>
+                            <div class="author-title">Entrepreneur</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Ready to Experience the Best Laundry Service?</h2>
+                <p class="cta-description">Join thousands of happy customers and get your first pickup scheduled today!</p>
+                <div class="cta-buttons">
+                    <button class="btn btn-primary btn-large">Schedule Your First Pickup</button>
+                    <button class="btn btn-secondary btn-large">Contact Us</button>
+                </div>
+                <p class="cta-note">🎁 Get 20% off on your first order!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <rect width="32" height="32" rx="8" fill="#6366F1"/>
+                            <path d="M16 8L20 12H12L16 8Z" fill="white"/>
+                            <rect x="10" y="12" width="12" height="12" rx="2" fill="white"/>
+                            <path d="M14 16H18M14 19H18" stroke="#6366F1" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                        <span class="logo-text">IronUp</span>
+                    </div>
+                    <p class="footer-description">Premium laundry pickup and delivery service. Making your life easier, one load at a time.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Twitter">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-heading">Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Wash & Fold</a></li>
+                        <li><a href="#">Dry Cleaning</a></li>
+                        <li><a href="#">Iron & Press</a></li>
+                        <li><a href="#">Shoe Cleaning</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-heading">Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-heading">Contact</h4>
+                    <ul class="footer-links">
+                        <li>📧 hello@ironup.in</li>
+                        <li>📱 +91 98765 43210</li>
+                        <li>📍 Bangalore, India</li>
+                        <li>⏰ 24/7 Support</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 IronUp. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
